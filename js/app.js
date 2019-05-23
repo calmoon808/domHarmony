@@ -35,25 +35,45 @@ data.appendChild(wants);
 //9. In the div id profile section, create a paragraph element with an id of pro2 and create a your own profile for Ronald (at least 2 sentences).
 var pro2 = document.createElement('p');
 pro2.id = 'pro2';
-pro2.innerHTML = 'I like my burgers like I like my women, juicy and fat. I also like star gazing';
+pro2.innerHTML = 'I like my burgers like I like my women, juicy and fat. I also like star gazing.';
 profile.appendChild(pro2); 
 
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
+var newName = document.getElementsByClassName('firstName');
+newName[0].innerHTML = 'Wendy';
 
 //11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.
-
+var newAge = document.getElementsByClassName('otherAge');
+newAge[0].innerHTML = 48;
 //12. In the div id matches section, target the first div element with the class name of status and change Status to Single Mother.
-
+var newStatus = document.getElementsByClassName('status');
+newStatus[0].innerHTML = 'Single Mother';
 //13. In the div id matches section, target the second div element with the class name of firstName and change Name to Peko Chan.
-
+newName[1].innerHTML = 'Peko Chan';
 //14. In the div id matches section, target the second div element with the class name of otherAge and change Age to 68.
-
+newAge[1].innerHTML = 68;
  //Final Boss Create your own profile into the page:
  //change image to match your profile
  //div with class name of firstName
  //div with class name of otherAge
  //div with class name of status
  //div with class anem of Motto
+ var newMotto = document.getElementsByClassName('motto');
+ newName[2].innerHTML = 'Person';
+ newAge[2].innerHTML = 12;
+ newStatus[2].innerHTML = 'Single';
+ newMotto[2].innerHTML = 'Grab life by the balls';
+ var newImg = document.getElementsByClassName('other');
+ newImg[2].src="https://pbs.twimg.com/profile_images/653700295395016708/WjGTnKGQ.png"
+// var profile = document.createElement('div');
+// var profileName = document.createElement('div');
+// profileName.innerHTML = 'Name';
+// var profileAge = document.createElement('div');
+// profileAge.innerHTML = 12;
+// var profileStatus = document.createElement('div');
+// profileStatus.innerHTML = 'Single';
+// var profileMotto = document.createElement('div');
+// profileMotto.innerHTML = 'Grab life by the balls';
 
 
 
